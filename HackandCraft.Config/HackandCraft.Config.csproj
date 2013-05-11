@@ -33,6 +33,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HackandCraft.DBVC, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\HackandCraft.DBVC\bin\Debug\HackandCraft.DBVC.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,12 +51,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Result.cs" />
     <Compile Include="Setting.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\HackandCraft.DBVC\HackandCraft.DBVC.csproj">
-      <Project>{1bf5e3e2-2f4d-47cd-836f-b876b8781a90}</Project>
-      <Name>HackandCraft.DBVC</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
