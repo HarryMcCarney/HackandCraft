@@ -105,4 +105,8 @@ Generated_Code #added for RIA/Silverlight projects
 # Visual Studio version. Backup files are not needed, because we have git ;-)
 _UpgradeReport_Files/
 Backup*/
+<<<<<<< HEAD
 UpgradeLog*.XML
+=======
+UpgradeLog*.XML
+>>>>>>> 4f0b6778930ba2da53434e2df3e0ace6ab18b9d6
