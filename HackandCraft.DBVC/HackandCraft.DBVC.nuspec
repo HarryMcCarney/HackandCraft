@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>HackandCraft.DBVC</id>
+    <version>$version$</version>
+    <title>DBVC</title>
+    <authors>Harry McCarney</authors>
+    <owners>Harry McCarney</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A minimal stored procedure based orm using xml.</description>
+    <releaseNotes>Added ability to save and receive raw json</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>orm xml sql</tags>
+  </metadata>
+</package>
