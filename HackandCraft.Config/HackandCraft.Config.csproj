@@ -54,6 +54,12 @@
   <ItemGroup>
     <Content Include="content\BuildDbObjects.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HackandCraft.DBVC\HackandCraft.DBVC.csproj">
+      <Project>{1bf5e3e2-2f4d-47cd-836f-b876b8781a90}</Project>
+      <Name>HackandCraft.DBVC</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
