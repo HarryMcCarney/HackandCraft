@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackandCraft.DBVC", "HackandCraft.DBVC\HackandCraft.DBVC.csproj", "{1BF5E3E2-2F4D-47CD-836F-B876B8781A90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackandCraft.Config", "HackandCraft.Config\HackandCraft.Config.csproj", "{B0810C1E-0F32-4AEA-AD5C-397815449BC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{1BF5E3E2-2F4D-47CD-836F-B876B8781A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BF5E3E2-2F4D-47CD-836F-B876B8781A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BF5E3E2-2F4D-47CD-836F-B876B8781A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0810C1E-0F32-4AEA-AD5C-397815449BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0810C1E-0F32-4AEA-AD5C-397815449BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0810C1E-0F32-4AEA-AD5C-397815449BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0810C1E-0F32-4AEA-AD5C-397815449BC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
