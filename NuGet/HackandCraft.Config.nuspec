@@ -11,7 +11,7 @@
     <copyright>Copyright 2013</copyright>
     <tags>Config global Singleton</tags>
     <dependencies>
-    <dependency id="HackandCraft.DBVC" release="0.1.0"/>
+    <dependency id="HackandCraft.DBVC" version=""/>
       </dependencies>
   </metadata>
 
