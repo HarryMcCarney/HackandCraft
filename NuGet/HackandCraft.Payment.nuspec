@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>HackandCraft.Payment/id>
+    <id>HackandCraft.Payment</id>
     <version>$version$</version>
     <title>Payment</title>
     <authors>Harry McCarney</authors>
