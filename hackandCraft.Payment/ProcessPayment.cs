@@ -1,4 +1,5 @@
 ﻿using System;
+using BurnPlus.Services.PaymentService;
 using HackandCraft.Config;
 using HackandCraft.Payment;
 using HackandCraft.Payment.PaymentService;
@@ -7,9 +8,10 @@ using NLog;
 using adyen = HackandCraft.Payment.comadyenpaltest;
 using DBVC;
 using Payment = HackandCraft.Payment.Payment;
+using Result = HackandCraft.Payment.Result;
 
 
-namespace BurnPlus.Services.PaymentService
+namespace HackandCraft.Services.PaymentService
 {
     
     public class ProcessPayment
@@ -47,7 +49,8 @@ namespace BurnPlus.Services.PaymentService
 
             if (paymentStatus.success && payment.method != "PAYPAL")
             {
-                new CancelPayment(payment).cancelPayment();
+                //TODO make this configurable or callable from the dll.
+               // new CancelPayment(payment).cancelPayment();
             }
          
             return paymentStatus;

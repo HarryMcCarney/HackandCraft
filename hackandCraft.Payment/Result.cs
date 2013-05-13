@@ -5,7 +5,7 @@ using DBVC;
 namespace HackandCraft.Payment
 {
     [Serializable]
-    class Result : IResult
+    public class Result : IResult
     {
         [XmlAttribute]
         public string errorMessage { get; set; }

@@ -9,7 +9,7 @@ using DBVC;
 namespace HackandCraft.Config
 {
     [Serializable]
-    class Result : IResult 
+    public class Result : IResult 
     {
         [XmlAttribute]
         public string errorMessage { get; set; }

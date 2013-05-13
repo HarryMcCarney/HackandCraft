@@ -2,7 +2,7 @@
 using DBVC;
 using HackandCraft.Payment;
 
-namespace BurnPlus.Services.PaymentService
+namespace HackandCraft.Services.PaymentService
 {
     public class PaySubscription
     {
