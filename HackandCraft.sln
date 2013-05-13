@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackandCraft.DBVC", "Hackan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackandCraft.Config", "HackandCraft.Config\HackandCraft.Config.csproj", "{B0810C1E-0F32-4AEA-AD5C-397815449BC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackandCraft.Payment", "hackandCraft.Payment\HackandCraft.Payment.csproj", "{5A5D1CDA-ACA0-4841-9524-57A82163E59F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackandCraft.Payment", "HackandCraft.Payment\HackandCraft.Payment.csproj", "{5A5D1CDA-ACA0-4841-9524-57A82163E59F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
