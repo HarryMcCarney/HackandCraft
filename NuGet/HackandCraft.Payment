@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>HackandCraft.Payment/id>
+    <version>$version$</version>
+    <title>Payment</title>
+    <authors>Harry McCarney</authors>
+    <owners>Harry McCarney</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Wrapper for Adyen. Includes cancelation, refunds and subscriptions for credit cards elv and paypal.</description>
+    <releaseNotes>Added ability to save and receive raw json</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>Payment, adyen</tags>
+  </metadata>
+</package>
