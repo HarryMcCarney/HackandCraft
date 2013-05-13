@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 namespace HackandCraft.Payment
 {
     [Serializable]
-    public class Payment
+    public class Payment :IPayment
     {
         [XmlAttribute]
         public string paymentRef { get; set; }

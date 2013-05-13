@@ -18,9 +18,9 @@ namespace BurnPlus.Services.PaymentService
         private static readonly Logger log = LogManager.GetCurrentClassLogger();
         private PaymentStatus paymentStatus;
         private adyen.Payment paymentEndPoint;
-        private Payment     payment;
+        private IPayment     payment;
 
-        public ProcessPayment(Payment _payment)
+        public ProcessPayment(IPayment _payment)
         {
              payment = _payment;
              paymentStatus = new PaymentStatus();

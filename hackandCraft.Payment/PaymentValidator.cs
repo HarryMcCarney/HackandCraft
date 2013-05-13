@@ -9,7 +9,7 @@ namespace BurnPlus.Services.PaymentService
     public static class PaymentValidator
     {
 
-        public static PaymentStatus validatePayment(Payment payment)
+        public static PaymentStatus validatePayment(IPayment payment)
         {
 
             var vp = new PaymentStatus();

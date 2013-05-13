@@ -51,6 +51,7 @@
     <Compile Include="CancelPayment.cs" />
     <Compile Include="CreatePaymentNotice.cs" />
     <Compile Include="CreditCardValidator.cs" />
+    <Compile Include="IPayment.cs" />
     <Compile Include="Payment.cs" />
     <Compile Include="PaymentEndPoint.cs" />
     <Compile Include="PaymentNotice.cs" />

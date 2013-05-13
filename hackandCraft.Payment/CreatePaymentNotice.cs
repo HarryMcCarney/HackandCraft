@@ -13,7 +13,7 @@ namespace BurnPlus.Services.PaymentService
         private static readonly Logger log = LogManager.GetCurrentClassLogger();
         private  static string paymentRef;
 
-        public static void createSave(Payment payment, PaymentResult paymentResult)
+        public static void createSave(IPayment payment, PaymentResult paymentResult)
         {
             try
             {

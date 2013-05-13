@@ -12,9 +12,9 @@ namespace BurnPlus.Services.PaymentService
     public class CancelPayment
     {
         private adyen.Payment paymentEndPoint;
-        private Payment payment;
+        private IPayment payment;
         private static readonly Logger log = LogManager.GetCurrentClassLogger();    
-        public CancelPayment(Payment _payment)
+        public CancelPayment(IPayment _payment)
         {
             payment = _payment;
             paymentEndPoint = new PaymentEndPoint().paymentService;

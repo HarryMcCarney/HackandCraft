@@ -1,4 +1,5 @@
-﻿using DBVC;
+﻿using System.Xml.Serialization;
+using DBVC;
 using HackandCraft.Payment;
 
 namespace BurnPlus.Services.PaymentService
@@ -6,9 +7,9 @@ namespace BurnPlus.Services.PaymentService
     public class PaySubscription
     {
 
-        private Payment payment;
+        private IPayment payment;
 
-        public PaySubscription(Payment _payment, string _userToken)
+        public PaySubscription(IPayment _payment, string _userToken)
         {
             payment = _payment;
             payment.userToken = _userToken;
@@ -34,4 +35,6 @@ namespace BurnPlus.Services.PaymentService
             return new PaymentStatus() {success = false, message = "PAYMENT_FAILED"};
         }
     }
+
+    
 }

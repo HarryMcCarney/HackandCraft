@@ -13,7 +13,7 @@ namespace HackandCraft.Payment.PaymentService
     {
         private static readonly Logger log = LogManager.GetCurrentClassLogger();
 
-        public static string redirectUrl(Payment payment)
+        public static string redirectUrl(IPayment payment)
         {
             try
             {
@@ -31,7 +31,7 @@ namespace HackandCraft.Payment.PaymentService
 
         }
     
-        private static NameValueCollection getQueryString(Payment payment)
+        private static NameValueCollection getQueryString(IPayment payment)
         {
             try
             {
