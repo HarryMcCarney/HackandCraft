@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>HackandCraft.Auth</id>
+    <version>$version$</version>
+    <title>Auth</title>
+    <authors>Harry McCarney</authors>
+    <owners>Harry McCarney</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Add client token and http basic auth to end points with controller attributes.</description>
+    <releaseNotes>Version 1</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>Auth httpbasic,token</tags>
+  </metadata>
+</package>
