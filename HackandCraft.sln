@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackandCraft.Config", "Hack
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackandCraft.Payment", "HackandCraft.Payment\HackandCraft.Payment.csproj", "{5A5D1CDA-ACA0-4841-9524-57A82163E59F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackandCraft.Auth", "HackandCraft.Auth\HackandCraft.Auth.csproj", "{4F83E508-69F3-46AD-9F75-E05775AA1187}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{5A5D1CDA-ACA0-4841-9524-57A82163E59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A5D1CDA-ACA0-4841-9524-57A82163E59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A5D1CDA-ACA0-4841-9524-57A82163E59F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F83E508-69F3-46AD-9F75-E05775AA1187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F83E508-69F3-46AD-9F75-E05775AA1187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F83E508-69F3-46AD-9F75-E05775AA1187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F83E508-69F3-46AD-9F75-E05775AA1187}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
