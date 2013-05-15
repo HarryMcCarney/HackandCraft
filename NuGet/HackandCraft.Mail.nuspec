@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>HackandCraft.Mail</id>
+    <version>$version$</version>
+    <authors>Harry McCarney</authors>
+    <owners>Harry McCarney</owners>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A lightweight and complete mailing system in c#. Includes creating, queuing and sending through a mandrill api wrapper.</description>
+    <releaseNotes>First Version</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>mandrill email queue</tags>
+  </metadata>
+</package>
