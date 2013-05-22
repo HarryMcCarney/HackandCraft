@@ -38,7 +38,7 @@ namespace HackandCraft.Api
 
         }
 
-        public static string formattedResult(Result result)
+        public static string formattedResult(IResult result)
         {
             return JsonConvert.SerializeObject(result, Formatting.None, new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore });
         }
