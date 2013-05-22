@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>HackandCraft.Api</id>
+    <version>$version$</version>
+    <title>Payment</title>
+    <authors>Harry McCarney</authors>
+    <owners>Harry McCarney</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provide baseapi features</description>
+    <releaseNotes>intial nuget</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>api</tags>
+  </metadata>
+</package>
