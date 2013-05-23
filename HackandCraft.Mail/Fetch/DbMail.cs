@@ -34,15 +34,26 @@ namespace mandrill.net.Fetching
                     messageStatus.status = "FAILED";
                     break;
             }
- 
-            var connstr = Config.Instance.dbConn; 
+
+            setMessage(messageStatus);
+        }
+
+        internal static void setMessageFailed(Message message)
+        {
+            var messageStatus = new MessageStatus {Message = message, status = "FAILED"};
+            setMessage(messageStatus);
+
+        }
+
+        internal static void setMessage(MessageStatus messageStatus)
+        {
+            var connstr = Config.Instance.dbConn;
             var orm = new Orm(new MSSQLData(connstr));
             orm.execObject<Result>(messageStatus, "mess.set_message_status");
         }
 
         internal static void save(Message message)
         {
-            
             var orm = new Orm();
             orm.execObject<Result>(message, "mess.enqueue_message");
          }

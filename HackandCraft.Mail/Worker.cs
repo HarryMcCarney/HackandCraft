@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using mandrill.net.Fetching;
 using mandrill.net.Post;
@@ -26,8 +27,8 @@ namespace mandrill.net
                 foreach (var mail in mails)
                 {
                     var closedMail = mail;
-                    Task.Factory.StartNew(() => send(closedMail));
-                   // send(closedMail);
+                    //Task.Factory.StartNew(() => send(closedMail));
+                    send(closedMail);
                 }
             }
 
@@ -35,10 +36,17 @@ namespace mandrill.net
 
         private static void send(Message mail)
         {
-            var template = Build.buildMandrillMessage(mail);
-            var response = Send.send(template.serialise());
-            DbMail.setMessageStatus(mail, response[0]);
+            try
+            {
 
+                var template = Build.buildMandrillMessage(mail);
+                var response = Send.send(template.serialise());
+                DbMail.setMessageStatus(mail, response[0]);
+            }
+            catch (Exception exp)
+            {
+                DbMail.setMessageFailed(mail);
+            }
         }
 
         private static void checkConfig()

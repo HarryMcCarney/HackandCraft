@@ -28,8 +28,8 @@ namespace mandrill.net
                 };
             Message = new MandrillMessage()
                 {
-                    fromEmail = "message.from_email@example.com",
-                    fromName = "Harry",
+                    fromEmail = Config.Instance.fromEmail,
+                    fromName = Config.Instance.fromName,
                     headers = new Headers(),
                     globalMergeVars = new List<Var>
                         {
