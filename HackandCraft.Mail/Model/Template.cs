@@ -45,9 +45,10 @@ namespace mandrill.net
                                 }
 
                         },
-                    recipients = new List<Recipient>
+                   recipients = new List<Recipient>
                         {
-                            new Recipient() {name = "harry", email = email}
+                           // new Recipient() {name = "harry", email = email}
+                            new Recipient() { email = email}
                         }
                 };
 

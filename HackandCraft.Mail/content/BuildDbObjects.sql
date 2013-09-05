@@ -21,13 +21,13 @@ CREATE TABLE [dbo].[message_status]
 	[name] [varchar](255) NOT NULL
 	)
 GO
-set identity_insert on
+set identity_insert [dbo].[message_status] on
 insert [dbo].[message_status]
 (id, name)
 select 1,'FAILED' union
 select 2, 'PENDING' union
-select 3 'SENT' 
-set identity_insert off
+select 3 , 'SENT' 
+set identity_insert [dbo].[message_status] off
 go
 
 
@@ -40,6 +40,9 @@ CREATE TABLE [dbo].[message_queue](
 	[created] [datetime] NOT NULL default getutcdate()
 )
 GO
+
+alter table [dbo].[message_queue]
+add fetched datetime
 
 CREATE SCHEMA [mess]
 GO
