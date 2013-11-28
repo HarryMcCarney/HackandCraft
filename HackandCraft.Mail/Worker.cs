@@ -59,10 +59,7 @@ namespace mandrill.net
                 throw new System.InvalidOperationException("dbConn not supplied.");
             if (Config.Instance.replyTo == null)
                 throw new System.InvalidOperationException("replyTo not supplied.");
-            if (Config.Instance.fromEmail == null)
-                throw new System.InvalidOperationException("fromEmail not supplied.");
-            if (Config.Instance.fromName == null)
-                throw new System.InvalidOperationException("fromName not supplied.");
+ 
 
          
         }
